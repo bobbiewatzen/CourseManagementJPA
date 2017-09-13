@@ -1,10 +1,11 @@
 package packt.book.jee.eclipse.ch4.jpa.bean;
 
 import java.io.*;
-import javax.persistence.*;
 import javax.validation.constraints.*;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.persistence.Column;
+import javax.persistence.Entity;
 
 @Entity
 @ManagedBean (name="teacher")
